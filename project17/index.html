@@ -1,41 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Drink Water</title>
-    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie</title>
 </head>
-
 <body>
-    <h1>Drink Water</h1>
-    <h3>Goal: 2 liters</h3>
-    <div class="cup">
-        <div class="remained" id="remained">
-            <span id="liters"></span>
-            <small>Remained</small>
-        </div>
+  <header>
+    <form id="form">
+      <input type="text" id="search" class="search" placeholder="search">
+    </form>
+  </header>
 
-        <div class="percentage"></div>
+  <main id="main">
+    <div class="movie">
+      <img src="#" alt="">
+      <div class="movie-info">
+        <h3>Movie Title</h3>
+        <span class="green">9.8</span>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In qui iure laborum architecto sed veritatis explicabo inventore assumenda voluptatibus repellat?
+      </div>
     </div>
-
-    <p class="text">Select how many glasses of water that you've drank</p>
-
-    <div class="cups">
-        <div class="cup cup-small">250ml</div>
-        <div class="cup cup-small">500ml</div>
-        <div class="cup cup-small">250ml</div>
-        <div class="cup cup-small">250ml</div>
-        <div class="cup cup-small">250ml</div>
-        <div class="cup cup-small">250ml</div>
-        <div class="cup cup-small">250ml</div>
-        <div class="cup cup-small">250ml</div>
-        <div class="cup cup-small">250ml</div>
-    </div>
+  </main>
 
 </body>
 <script src="js.js"></script>
-
 </html>
