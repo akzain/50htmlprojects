@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
   box-sizing: border-box;
@@ -13,24 +13,21 @@ body {
     #5290f9 50%,
     #5290f9 100%
   );
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
-  overflow: hidden;
   margin: 0;
 }
 
 nav {
-  margin: 20px;
   background-color: #fff;
   padding: 20px;
   width: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px;
   border-radius: 3px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   transition: width 0.6s linear;
@@ -43,7 +40,7 @@ nav.active {
 
 nav ul {
   display: flex;
-  list-style: none;
+  list-style-type: none;
   padding: 0;
   margin: 0;
   width: 0;
@@ -76,6 +73,7 @@ nav ul a {
   background-color: #fff;
   border: 0;
   cursor: pointer;
+  padding: 0;
   position: relative;
   height: 30px;
   width: 30px;
@@ -100,7 +98,7 @@ nav ul a {
   bottom: 10px;
 }
 
-nav.active .icon .line {
+nav.active .icon .line1 {
   transform: rotate(-765deg) translateY(5.5px);
 }
 
