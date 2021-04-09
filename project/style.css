@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #d5dfc9, #6cddeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-wrapper {
+  margin: 15px;
+  padding: 20px 10%;
+  background: #fff;
+  min-height: 80vh;
+  width: 80%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border: 5px solid #fff;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+li{
+
+  list-style-position: inside;
+  list-style: square;
+}
+h1,h2{
+  text-align: center;
+}
+.summary{
+  padding-top: 17px ;
+}
+
+h3{
+  color: rgb(37, 221, 0);
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Zilla Slab Highlight', cursive;
+  padding: 17px 0;
+}
+p{
+  padding-left: 20px;
+}
