@@ -1,58 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
-
-
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  min-height: 100vh;
-  background: linear-gradient(to right top, #d5dfc9, #6cddeb);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:  20px;
+  padding: 30px;
+  line-height: 1.6;
 }
 
-.page-wrapper {
-  margin: 15px;
-  padding: 20px 10%;
-  background: #fff;
-  min-height: 80vh;
-  width: 80%;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border: 5px solid #fff;
-}
-
-
-a{
-  text-decoration: none;
-}
-
-li{
-
-  list-style-position: inside;
-  list-style: square;
-}
-h1,h2{
+h1 {
   text-align: center;
-}
-.summary{
-  padding-top: 17px ;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
 }
 
-h3{
-  color: rgb(37, 221, 0);
-  font-weight: bold;
-  font-size: 25px;
-  font-family: 'Zilla Slab Highlight', cursive;
-  padding: 17px 0;
+h2 {
+  margin-top: 20px;
 }
-p{
-  padding-left: 20px;
+
+button {
+  cursor: pointer;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+
+input[type="text"]{
+    border: 1px solid #ccc;
+    width: 330px;
+    padding: 4px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.card{
+    margin: 20px 0;
+    border: 1px #ccc solid;
+    padding: 20px;
+}
+
+.box{
+    background-color: steelblue;
+    width: 1.6em;
+    height: 1.6em;
 }
