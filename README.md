@@ -3,7 +3,7 @@ I am following the udemy course by Brad Traversy
 
 and theese are the prjects i have done from that course
  
-https://www.udemy.com/course/50-projects-50-days/ - See the Course!
+ [See the Course!](https://www.udemy.com/course/50-projects-50-days/)
 [ see the official source code by brad traversy ](https://github.com/bradtraversy/50projects50days)
 
 :smiley::grinning:
