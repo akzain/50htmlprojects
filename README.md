@@ -1,1 +1,7 @@
-D:\Desktop\Github_repos\50htmlprojects\50htmlprojects# 50htmlprojects
+I am following the udemy course by Brad Traversy
+**https://www.udemy.com/course/50-projects-50-days/**
+50 Html Projects in 50 days
+
+and theese are the prjects i have done from that course
+
+Visit here **https://github.com/bradtraversy/50projects50days** to see the official source code by brad traversy:smiley::grinning:

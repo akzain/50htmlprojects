@@ -1,0 +1,30 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+}
+
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6,
+html body strong {
+  color: #fff;
+  background-color: #f59;
+}
+
+html body p,
+html body li,
+html body span,
+html body label,
+html body input,
+html body textarea {
+  color: black;
+}
+/*# sourceMappingURL=default.css.map */
