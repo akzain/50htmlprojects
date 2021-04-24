@@ -75,6 +75,8 @@ img {
   margin-top: 5px;
 }
 
+
+/* main part of animation */
 .animated-bg {
   background-image: linear-gradient(
     to right,
