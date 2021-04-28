@@ -30,6 +30,10 @@ clipboardEL.addEventListener('click', () => {
    // alert('password is coppied to clipboard!')
    h1.classList.add('h1')
    h1.innerText = 'password is coppied to clipboard!'
+   setTimeout(() => {
+      h1.classList.remove('h1')
+      h1.innerText = ''
+   }, 5000);
 })
 
 generateEL.addEventListener('click', () => {
