@@ -6,10 +6,92 @@
 
 body {
   font-family: "Muli", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
   margin: 0;
+  height: 100vh;
+  margin: 0;
+}
+
+.counter{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.counter.hide{
+  transform: translate(-50%, -50%) scale(0);
+  animation: hide .2s ease-out;
+}
+
+@keyframes hide {
+  0%{
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  100%{
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+
+.final{
+   position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.final.show{
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes show {
+  0%{
+    transform: translate(-50%, -50%) scale(0);
+  }
+  30%{
+    transform: translate(-50%, -50%) scale(1.4);
+  }
+  100%{
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+
+.nums{
+  color: #3498db;
+  font-size: 50px;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: 50px;
+}
+
+.nums span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(120deg);
+  transform-origin: bottom center;
+}
+
+.nums span.in{
+  transform: translate(-50%, -50%) rotate(120deg);
+  animation: goIn 0.5s ease-in-out;
+}
+
+
+.nums span.out{
+  transform: translate(-50%, -50%) rotate(120deg);
+  animation: goOut 0.5s ease-in-out;
+}
+
+@keyframes goIn {
+
+  0%{
+    transform: translate(-50%, -50%) rotate(-20deg);
+  }
+  30%{}
+  60%{}
+  100%{}
 }
