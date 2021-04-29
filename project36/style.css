@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #111;
   font-family: "Muli", sans-serif;
   display: flex;
   align-items: center;
@@ -12,4 +13,25 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.square{
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px  #000;
+  height: 1rem;
+  width: 1rem;
+  margin: 2px;
+  transition: 2s ease;
+}
+
+.square:hover{
+  transition-duration: 0s;
 }
