@@ -54,3 +54,8 @@ This repository contains 50+ html projects you need.
 |project 48|[Source Code](https://github.com/akzain/50htmlprojects/tree/main/project48)| [Demo](https://akzain.github.io/50htmlprojects/project48/index.html). |
 |project 49|[Source Code](https://github.com/akzain/50htmlprojects/tree/main/project49)| [Demo](https://akzain.github.io/50htmlprojects/project49/index.html). |
 |project 50|[Source Code](https://github.com/akzain/50htmlprojects/tree/main/project50)| [Demo](https://akzain.github.io/50htmlprojects/project50/index.html). |
+
+## Note: Some of theese projects  are from the udemy of `BRAD TRAVERSY` 
+[``50 projects with HTML CSS and JAVASCRIPT ``](https://www.udemy.com/course/50-projects-50-days/)
+
+### if you want to see the official source code by ``BRAD TRAVERSY`` [clcik here](https://github.com/bradtraversy/50projects50days/)
