@@ -32,6 +32,8 @@ body {
   margin: 30px 20px;
   height: 400px;
   width: 400px;
+  overflow-wrap: break-word;
+  overflow-y: auto;
 }
 
 .note .tools{
