@@ -38,6 +38,7 @@ function addNewNote(text = '') {
     editBtn.addEventListener('click', () => {
         main.classList.toggle('hidden')
         textArea.classList.toggle('hidden')
+        textArea.focus()
     })
 
     textArea.addEventListener('input', (e) => {
