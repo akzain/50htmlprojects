@@ -13,8 +13,7 @@ body {
   padding-top: 3rem;
 }
 
-
-.add{
+.add {
   position: fixed;
   top: 1rem;
   right: 1rem;
@@ -26,24 +25,23 @@ body {
   cursor: pointer;
 }
 
-.note{
+.note {
   background-color: #fff;
-  box-shadow:0 0 10px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
   margin: 30px 20px;
-  height: 400px;
+  height: 410px;
   width: 400px;
   overflow-wrap: break-word;
-  overflow-y: auto;
 }
 
-.note .tools{
+.note .tools {
   background-color: #9ec862;
   display: flex;
   justify-content: flex-end;
   padding: 8px;
 }
 
-.note .tools button{
+.note .tools button {
   background-color: transparent;
   border: none;
   color: #fff;
@@ -52,19 +50,19 @@ body {
   margin-left: 8px;
 }
 
-.note textarea{
+.note textarea {
   outline: none;
   font-family: inherit;
   font-size: 1.2rem;
   border: none;
-  height: 400px;
+  height: 360px;
   width: 100%;
   padding: 20px;
   resize: none;
   overflow-x: none;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
-.hidden{
+.hidden {
   display: none;
 }
