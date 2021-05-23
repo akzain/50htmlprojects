@@ -30,8 +30,8 @@ body {
   box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
   margin: 30px 20px;
   height: 400px;
-  width: 400px;
-  /* overflow-wrap: break-word; */
+  width: 1500px;
+  overflow-x: auto;
 }
 
 .note .tools {
@@ -59,7 +59,7 @@ body {
   width: 100%;
   padding: 20px;
   resize: none;
-  overflow-x: none;
+  overflow-x: auto;
   /* overflow-y: auto; */
 }
 
