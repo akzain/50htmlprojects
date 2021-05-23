@@ -29,7 +29,7 @@ body {
   background-color: #fff;
   box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
   margin: 30px 20px;
-  height: 410px;
+  height: 400px;
   width: 400px;
   /* overflow-wrap: break-word; */
 }
@@ -55,7 +55,7 @@ body {
   font-family: inherit;
   font-size: 1.2rem;
   border: none;
-  height: 360px;
+  height: 400px;
   width: 100%;
   padding: 20px;
   resize: none;
